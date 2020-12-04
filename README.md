@@ -1,7 +1,7 @@
-# A [SWAPI](https://swapi.dev/) client written in React
+# SPA client for [swapi.dev](https://swapi.dev/)
 
 
-> ### [Demo App](https://swapiclient.chaynikz.ru/)
+### [Demo App](https://swapiclient.chaynikz.ru/)
 
 
 
