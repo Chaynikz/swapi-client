@@ -1,0 +1,27 @@
+@media (min-width: 1400px) {
+
+    .main-title {
+        grid-column: 6 / 10;
+    }
+
+    /* main navigation */
+
+    .main-nav {
+        grid-column: 10 / 20;
+    }
+
+
+    /* breadcrumbs */
+
+    .breadcrumbs-container {
+        grid-column: 6 / 20;
+    }
+
+
+    /* Content */
+
+    .content-wrapper {
+        grid-column: 6 / 20;
+    }
+
+}

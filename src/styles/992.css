@@ -1,0 +1,26 @@
+@media (min-width: 992px) {
+
+    .main-title {
+        grid-column: 3 / 9;
+    }
+
+    /* main navigation */
+
+    .main-nav {
+        grid-column: 10 / 23;
+    }
+
+
+    /* breadcrumbs */
+    
+    .breadcrumbs-container {
+        grid-column: 3 / 23;
+    }
+
+    /* Content */
+
+    .content-wrapper {
+        grid-column: 3 / 23;
+    }
+
+}

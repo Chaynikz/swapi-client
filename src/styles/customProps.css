@@ -1,0 +1,7 @@
+:root {
+    --black-color: rgba(39, 49, 60, 1);
+    --yellow-color: rgba(205, 195, 0, 1);
+    --loadbar-color: rgba(205, 195, 0, .4);
+
+    --link-color: rgba(140, 145, 150, 1);
+}

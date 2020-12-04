@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300&subset=latin,cyrillic);
+
+.main-header {
+    height: 12vw;
+    line-height: 12vw;
+    grid-column: 1 / 25;
+    grid-row: 1;
+
+    display: grid;
+    grid-template-columns: repeat( 24, 1fr );
+    grid-template-rows: min-content;
+    grid-gap: 10px 10px;
+
+    background-color: var(--black-color);
+    color: rgb(255, 255, 255);
+}
+
+.main-title {
+    height: inherit;
+    grid-column: 2 / 20;
+
+    font-size: 6vw;
+    line-height: inherit;
+}

@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+
+    .main-header {
+        height: 68px;
+        line-height: 68px;
+    }
+
+    .main-title {
+        font-size: 27px;
+    }
+
+
+    /* Category */
+
+    .category-list {
+        grid-template-columns: repeat( 3, 1fr );
+    }
+
+    .category-link {
+        padding: 1.8vw;
+    }
+
+}

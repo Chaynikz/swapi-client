@@ -1,0 +1,43 @@
+@media (min-width: 1200px) {
+
+    .main-header {
+        height: 90px;
+        line-height: 90px;
+    }
+
+    .main-title {
+        grid-column: 5 / 9;
+    }
+
+    /* main navigation */
+
+    .main-nav {
+        grid-column: 10 / 21;
+    }
+
+
+    /* breadcrumbs */
+
+    .breadcrumbs-container {
+        grid-column: 5 / 21;
+    }
+
+
+    /* Content */
+
+    .content-wrapper {
+        grid-column: 5 / 21;
+    }
+
+    /* Category */
+
+    .category-link {
+        font-size: 22px;
+        padding: 1.4vw;
+    }
+
+    .category-link-text {
+        padding-left: 20px;
+    }
+
+}

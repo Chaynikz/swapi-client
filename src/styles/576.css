@@ -1,0 +1,115 @@
+@media (min-width: 576px) {
+
+    p { font-size: 16px; }
+
+    .main-container {
+        grid-template-rows: min-content min-content auto min-content;
+    }
+
+    .main-header {
+        height: 60px;
+        line-height: 60px;
+        transition: 0;
+    }
+
+    .main-title {
+        font-size: 3vw;
+        grid-column: 2 / 9;
+    }
+
+    /* main navigation */
+
+    .main-nav {
+        position: static;
+        grid-column: 10 / 24;
+        height: inherit;
+        width: 100%;
+        padding: 0;
+        background-color: inherit;
+        overflow: visible;
+    }
+
+    .main-nav-link {
+        padding: 0 15px;
+        font-size: 17px;
+        line-height: inherit;
+        color: #e5e5e5;
+    }
+
+    .main-nav-link:hover { color: #fff; }
+
+    .main-nav-ul-1 {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .main-nav-ul-2 {
+    	position: absolute;
+        right: 0;
+        height: 0;
+        overflow: hidden;
+        transition: 0.5s;
+        background-color: rgba(39, 49, 60, .95);
+    }
+
+    .main-nav-ul-2 .main-nav-link {
+        padding: 0 50px;
+        line-height: 40px;
+    }
+
+    .main-nav > ul > li:hover .main-nav-ul-2 {
+        height: 280px;
+        padding-top: 10px;
+    }
+
+    .closebtn { visibility: hidden; }
+
+
+    /* breadcrumbs */
+
+    .breadcrumbs-container {
+        display: flex;
+    }
+
+
+    /* Content */
+
+    .content-link {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: 500;
+        color: rgba(50, 50, 50, 1);
+        display: block;
+        transition: 0.3s;
+    }
+
+
+    /* Category */
+
+    .category-list {
+        grid-template-columns: repeat( 2, 1fr );
+        grid-gap: 2vw;
+    }
+
+    .category-link {
+        font-size: 25px;
+    }
+
+
+    /* Tables */
+
+    .content-title {
+        margin-left: 30%;
+    }
+
+    .swapi-table td, .swapi-table th {
+        font-size: 18px;
+    }
+
+    .swapi-table-link {
+        margin-bottom: 0;
+    }
+
+}
